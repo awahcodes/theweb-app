@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+   box-sizing: border-box; 
+}
+
+body{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+/*styling the header and nav */
+
+header, main, footer{
+    border: 0.5px solid rgb(131, 48, 48);
+
+    }
+
+header {
+    background-color: rgb(47, 0, 255);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h1{
+    padding-left: 2rem;
+}
+.mid-header-links {
+    display: flex;
+    justify-content: space-between;
+}
+.grid-container{
+ display: grid;
+ grid-template-rows: auto 1fr auto;
+ height:100vh
+}
+
+
+ul,li{
+    display: flex;
+    
+}
+li{
+    list-style-type: none;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    
+}
+
+li,a{
+    text-decoration: none;
+    color:white;
+    cursor:pointer
+}
+
+li a:hover {
+
+    font-weight: bold;
+}
+/*styling the main body */
+
+.landing-page-img{
+    position:relative;
+    max-width:auto;
+    height:auto;
+    left: 100px;
+    top:50px;
+}
+
+.main-note{
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    text-align: center;
+        
+}
+.main-note-words{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+div span{
+    
+    font-size: 2rem;
+    border: 1px solid white;
+    padding:8px;
+    cursor: pointer;
+}
+
+
+div span a{
+    color: red;
+}
+
+div span a:hover{
+    color: white;
+    
+}
+
+div span:hover {
+
+
+    border: 2px solid white;
+    
+}
+
+footer {
+    background-color: rgb(47, 0, 255);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around
+}
+
+   
+.foot-note p {
+    padding-left: 5rem;
+    margin-top: 15px;
+}
+
